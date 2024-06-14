@@ -74,7 +74,7 @@ const Refer = () => {
         btnFun2={() => navigate("/loginSignup")}
       />
       <Box bg={"white"}>
-        <Image src="/public/Images/refern_n_earn.png" />
+        <Image src="/assets/refern_n_earn.png" />
       </Box>
       <Box
         color={"white"}

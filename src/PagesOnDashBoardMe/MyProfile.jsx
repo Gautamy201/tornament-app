@@ -10,7 +10,6 @@ import {
   RadioGroup,
   SimpleGrid,
   Stack,
-  VStack,
 } from "@chakra-ui/react";
 import PasswordInputComponent from "../Components/PasswordInputComponent";
 import { useGlobalContext } from "../context";
@@ -24,6 +23,9 @@ const MyProfile = () => {
         "10vh 10px 10px 10px",
         "0 50px ",
       ]}
+      display={["block", "block", "block", "flex"]}
+      flexDirection={"column"}
+      alignItems={"center"}
     >
       <Box padding={" 0 10px "}>
         <Stack width={["100%", "auto", "auto", "500px"]}>

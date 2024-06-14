@@ -11,7 +11,11 @@ const ReferAndEarn = () => {
         color={"yellow.500"}
         gap={"20px"}
       >
-        <Image w={"150px"} src="../../public/Images/avtar.png" />
+        <Image
+          borderRadius={"100%"}
+          w={"150px"}
+          src="/assets/loginAminAvtar.jpg"
+        />
         <Heading
           fontSize={["1.5rem", "1.7rem", "1.8rempx", "1.7rem"]}
           textTransform={"uppercase"}
@@ -40,7 +44,7 @@ const ReferAndEarn = () => {
         </Text>
       </VStack>
       <Box>
-        <Image src="../../public/Images/refern_n_earn.png" />
+        <Image src="../../public/assets/refern_n_earn.png" />
       </Box>
       <VStack>
         <Button

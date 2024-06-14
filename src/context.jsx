@@ -6,6 +6,7 @@ const AppProvider = ({ children }) => {
   const [userDetail, setUserDetails] = useState([]);
 
   const [isLogin, setIsLogin] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
 
   const login = (userInfo, login) => {
     setIsLogin(login);
@@ -15,8 +16,13 @@ const AppProvider = ({ children }) => {
     setIsLogin(false);
     setUserDetails([]);
   };
+  const adminLogin = () => {
+    setIsAdmin(true);
+  };
   return (
-    <AppContext.Provider value={{ userDetail, login, logout }}>
+    <AppContext.Provider
+      value={{ userDetail, login, logout, isLogin, isAdmin, adminLogin }}
+    >
       {children}
     </AppContext.Provider>
   );

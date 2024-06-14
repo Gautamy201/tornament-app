@@ -17,62 +17,62 @@ const Me = () => {
     {
       name: "Rewards",
       icon: "ri-trophy-fill",
-      link: "/dashboard/me/reward",
-      mobileScreenLink: "/dashboard/reward",
+      link: "/user/me/reward",
+      mobileScreenLink: "/user/reward",
     },
     {
       name: "Refer & Earn",
       icon: "ri-group-fill",
-      link: "/dashboard/me/refer&earn",
-      mobileScreenLink: "/dashboard/refer&_earn",
+      link: "/user/me/refer&earn",
+      mobileScreenLink: "/user/refer&_earn",
     },
     {
       name: "My Profile",
       icon: "ri-shield-user-fill",
-      link: "/dashboard/me/profile",
-      mobileScreenLink: "/dashboard/profile",
+      link: "/user/me/profile",
+      mobileScreenLink: "/user/profile",
     },
     {
       name: "My Wallet",
       icon: "ri-wallet-3-fill",
-      link: "/dashboard/me/wallet",
-      mobileScreenLink: "/dashboard/wallet",
+      link: "/user/me/wallet",
+      mobileScreenLink: "/user/wallet",
     },
     {
       name: "My Statistics",
       icon: "ri-bar-chart-grouped-fill",
-      link: "/dashboard/me/statistics",
-      mobileScreenLink: "/dashboard/statistics",
+      link: "/user/me/statistics",
+      mobileScreenLink: "/user/statistics",
     },
     {
       name: "Notifications",
       icon: "ri-notification-4-fill",
-      link: "/dashboard/me/notification",
-      mobileScreenLink: "/dashboard/notification",
+      link: "/user/me/notification",
+      mobileScreenLink: "/user/notification",
     },
     {
       name: "Important Guides",
       icon: "ri-graduation-cap-fill",
-      link: "/dashboard/me/importantGuides",
-      mobileScreenLink: "/dashboard/importantGuides",
+      link: "/user/me/importantGuides",
+      mobileScreenLink: "/user/importantGuides",
     },
     {
       name: "About Us",
       icon: "ri-error-warning-fill",
-      link: "/dashboard/me/aboutus",
-      mobileScreenLink: "/dashboard/aboutus",
+      link: "/user/me/aboutus",
+      mobileScreenLink: "/user/aboutus",
     },
     {
       name: "Customer Support",
       icon: "ri-customer-service-2-fill",
-      link: "/dashboard/me/customerSupport",
-      mobileScreenLink: "/dashboard/customerSupport",
+      link: "/user/me/customerSupport",
+      mobileScreenLink: "/user/customerSupport",
     },
     {
       name: "Legality",
       icon: "ri-book-fill",
-      link: "/dashboard/me/lagality",
-      mobileScreenLink: "/dashboard/lagality",
+      link: "/user/me/lagality",
+      mobileScreenLink: "/user/lagality",
     },
   ];
 
@@ -86,7 +86,7 @@ const Me = () => {
       >
         <HStack gap={"20px"} flexDirection={["column", "column", "row", "row"]}>
           <Box width={"150px"}>
-            <Image src="/public/Images/avtar.png" />
+            <Image src="/assets/avtar.png" />
           </Box>
           <VStack alignItems={"self-start"}>
             <Text

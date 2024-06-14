@@ -66,7 +66,7 @@ const DashBoardNav = () => {
           gap={1}
           alignItems={"center"}
         >
-          <NavLink to={"/dashboard/play"}>
+          <NavLink to={"/user/play"}>
             <i className="ri-play-circle-line">
               <Text as={"span"} pl={"10px"}>
                 Play
@@ -94,7 +94,7 @@ const DashBoardNav = () => {
           gap={1}
           alignItems={"center"}
         >
-          <NavLink to={"/refer"}>
+          <NavLink>
             <i className="ri-money-rupee-circle-line">
               <Text as={"span"} pl={"10px"}>
                 Earn
@@ -108,7 +108,7 @@ const DashBoardNav = () => {
           gap={1}
           alignItems={"center"}
         >
-          <NavLink to={"/refer"}>
+          <NavLink>
             <i className="ri-article-line">
               <Text as={"span"} pl={"10px"}>
                 News
@@ -122,7 +122,7 @@ const DashBoardNav = () => {
           gap={1}
           alignItems={"center"}
         >
-          <NavLink to={"/dashboard/me"}>
+          <NavLink to={"/user/me"}>
             <i className="ri-emotion-line">
               <Text as={"span"} pl={"10px"}>
                 Me
